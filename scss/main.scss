@@ -83,6 +83,9 @@ header{
             font-weight: bold;
             text-decoration: none;
             color: $warm-black;
+            &:hover{
+                cursor: pointer;
+            }
             span{
                 display: inline-block;
                 width: 13px;
@@ -92,4 +95,135 @@ header{
             }
         }
     }
+}
+main{
+    width: 100%;
+    height: auto;
+    background-color: $off-white;
+    .main-exchange-container{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .main-exchenge-image{
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        background-image: url('../assets/img/Bitcoin.svg');
+        /* buenas practicas para background-image */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .main-exchange-text-container{
+        width: 90%;
+        min-width: 288px;
+        max-width: 900px;
+        margin: 0 auto; /* se posiciona en el centro SIEMPRE */
+        h2{
+            margin-bottom: 30px;
+            font-size: 2.4rem;
+            font-weight: bold;
+            line-height: 2.6rem;
+            color:$warm-black;
+        }
+        p{
+            margin-bottom: 30px;
+            font-size: 1.6rem;
+            font-weight: 500;
+            line-height: 1.6rem;
+            color:$gray;
+        }
+    }
+
+    .main-table-money{
+        width: 70%;
+        min-width: 235px;
+        max-width: 500px;
+        height: 360px;
+        margin: 0 auto;
+        font-family: 'Lexend',sans-serif;
+        .main-table-money-title{
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            font-weight: bold;
+            line-height: 2.3rem;
+            color: $bitcoin-orage;
+        }
+        .main-table-money-container{
+            width: 90%;
+            min-width: 230px;
+            max-width: 300px;
+            height: 250px;
+            margin: 0 auto;
+            table{
+                width: 100%;
+                height: 100%;
+                td{
+                    width: 50%;
+                    font-size: 1.6rem;
+                    font-weight: 500;
+                    line-height: 2rem;
+                    color: $gray;
+                    background-color: $just-white;
+                }
+            }
+            .table-top-left{
+                border-radius: 15px 0 0 0;                
+            }
+            .table__bottom-left{
+                border-radius: 0 0 0 15px;
+            }
+            .table__top-rigth{
+                border-radius: 0 15px 0 0;
+            }
+            .table__bottom-rigth{
+                border-radius: 0 0 15px 0;
+            }
+            .table-rigth-value{
+                font-size: 1.4rem;
+                font-weight: normal;
+                line-height: 1.7rem;
+                color: #757575;
+            }
+            .down{
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                margin-left: 10px;
+                background-image: url('../assets/icons/trending-down.svg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .up{
+                @extend .down;
+                background-image: url('../assets/icons/trending-up.svg');
+            }
+            .table-money-date{
+                width: 230px;
+                height: 30px;
+                padding: 10px;
+                margin: 0 auto;
+                background-color: $soft-orange;
+                margin-top: 24px;
+                line-height: 1.5rem;
+                border-radius: 10px;
+                p{
+                    font-size: 1.2rem;
+                    line-height: 1.5rem;
+                    color:$warm-black;
+                    font-family: 'Lexend',sans-serif;
+                }
+            }
+        }
+       
+
+    }
+
+    
+
 }
