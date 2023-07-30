@@ -8,6 +8,7 @@ $dark-blue: #1A9AF7;
 $warm-black:#201E1C;
 $warm-blackplus1:#282623;
 $gray:#BABABA;
+$darker-gray: #808080;
 $off-white:#FAF8F7;
 $just-white:#FFFFFF;
 $linear-gradient: 207.8deg, #201E1C 16.69%, #F7931A 100%;
@@ -292,7 +293,81 @@ main{
             }
         }  
     }
-    
+    .main-product-detail{
+        position: relative;
+        width: 100%;
+        min-width: 320px; /* pixels minimos en celular */
+        height: auto;
+        padding: 20px 10px;
+        background-color: $warm-black;
+        color: $just-white;
+        .batata-logo{
+            position: absolute;
+            width: 40px;
+            height: 25px;
+            top:-12px;
+            left: calc(50% - 20px);
+            background-image: url('../assets/icons/batata.svg');
+        }
+
+        .product-detail-title{
+            width: 90%;
+            min-width: 288px;
+            height: auto;
+            margin: 0 auto;
+            margin-top: 50px;
+            text-align: center;
+            h2{
+                margin-bottom: 20px;
+                font-size: 2.4rem;
+                font-weight: bold;
+                line-height: 2.6rem;
+            }
+            p{
+                margin-bottom: 20px;
+                font-size: 1.4rem;
+                font-weight: 500;
+                line-height: 1.8rem;
+                color: $darker-gray;
+            }
+        }
+        .real-time--card{
+            width: 90%;
+            min-width: 288px;
+            max-width: 400px;
+            height: 150px;
+            margin: 15px auto;
+            padding: 15px;
+            background-color:$warm-blackplus1 ;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.16);
+            .clock{
+                display: inline-block;
+                width: 30px;
+                height:30px;
+                margin-bottom: 10px;
+                background-image: url('../assets/icons/clock.svg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .real-time--tile{
+                margin-bottom: 15px;
+                font-size: 2.0rem;
+                font-weight: bold;
+                line-height: 1.8rem;
+                color: $just-white;
+            }
+            .real-time-body{
+                font-size: 1.4rem;
+                font-weight: 300;
+                line-height: 1.8rem;
+                color:$off-white;
+            }
+        }
+       
+        
+    }
     
 
 }

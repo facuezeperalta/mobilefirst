@@ -273,4 +273,76 @@ main .comission-table .comision-update-date p {
   line-height: 1.5rem;
   color: #201E1C;
   font-family: "Lexend", sans-serif;
+}
+main .main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px; /* pixels minimos en celular */
+  height: auto;
+  padding: 20px 10px;
+  background-color: #201E1C;
+  color: #FFFFFF;
+}
+main .main-product-detail .batata-logo {
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  top: -12px;
+  left: calc(50% - 20px);
+  background-image: url("../assets/icons/batata.svg");
+}
+main .main-product-detail .product-detail-title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+main .main-product-detail .product-detail-title h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+}
+main .main-product-detail .product-detail-title p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+main .main-product-detail .real-time--card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: #282623;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+main .main-product-detail .real-time--card .clock {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  background-image: url("../assets/icons/clock.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .main-product-detail .real-time--card .real-time--tile {
+  margin-bottom: 15px;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: #FFFFFF;
+}
+main .main-product-detail .real-time--card .real-time-body {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  color: #FAF8F7;
 }/*# sourceMappingURL=main.css.map */
