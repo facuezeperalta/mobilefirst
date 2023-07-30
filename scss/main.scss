@@ -365,8 +365,28 @@ main{
                 color:$off-white;
             }
         }
+       .real-taxes--card{
+        @extend .real-time--card;
+        .eye{
+            @extend .clock;
+            background-image: url('../assets/icons/eye.svg');
+        }
+       }
+        .money-compare--card{
+        @extend .real-time--card;
+        .money{
+                @extend .clock;
+                background-image: url("../assets/icons/dollar-sign.svg");
+            }
+        }
+        .confidence-info--card{
+            @extend .real-time--card;
+            .checkmark{
+                @extend .clock;
+                background-image: url("../assets/icons/check-circle.svg");
+            }
+        }
        
-        
     }
     
 

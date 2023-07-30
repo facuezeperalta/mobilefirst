@@ -312,7 +312,7 @@ main .main-product-detail .product-detail-title p {
   line-height: 1.8rem;
   color: #808080;
 }
-main .main-product-detail .real-time--card {
+main .main-product-detail .real-time--card, main .main-product-detail .confidence-info--card, main .main-product-detail .money-compare--card, main .main-product-detail .real-taxes--card {
   width: 90%;
   min-width: 288px;
   max-width: 400px;
@@ -323,7 +323,7 @@ main .main-product-detail .real-time--card {
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
-main .main-product-detail .real-time--card .clock {
+main .main-product-detail .real-time--card .clock, main .main-product-detail .confidence-info--card .clock, main .main-product-detail .confidence-info--card .checkmark, main .main-product-detail .money-compare--card .clock, main .main-product-detail .money-compare--card .money, main .main-product-detail .real-taxes--card .clock, main .main-product-detail .real-taxes--card .eye {
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -333,16 +333,25 @@ main .main-product-detail .real-time--card .clock {
   background-position: center;
   background-repeat: no-repeat;
 }
-main .main-product-detail .real-time--card .real-time--tile {
+main .main-product-detail .real-time--card .real-time--tile, main .main-product-detail .confidence-info--card .real-time--tile, main .main-product-detail .money-compare--card .real-time--tile, main .main-product-detail .real-taxes--card .real-time--tile {
   margin-bottom: 15px;
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.8rem;
   color: #FFFFFF;
 }
-main .main-product-detail .real-time--card .real-time-body {
+main .main-product-detail .real-time--card .real-time-body, main .main-product-detail .confidence-info--card .real-time-body, main .main-product-detail .money-compare--card .real-time-body, main .main-product-detail .real-taxes--card .real-time-body {
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.8rem;
   color: #FAF8F7;
+}
+main .main-product-detail .real-taxes--card .eye {
+  background-image: url("../assets/icons/eye.svg");
+}
+main .main-product-detail .money-compare--card .money {
+  background-image: url("../assets/icons/dollar-sign.svg");
+}
+main .main-product-detail .confidence-info--card .checkmark {
+  background-image: url("../assets/icons/check-circle.svg");
 }/*# sourceMappingURL=main.css.map */
