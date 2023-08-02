@@ -371,4 +371,32 @@ main .bitcoin-img-container h2 {
   font-size: 2.5rem;
   font-weight: bold;
   line-height: 2.6rem;
+}
+main .main-memberships-container {
+  width: 100%;
+  min-width: 320px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+main .memberships-title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  /* margin-top: 50px; */
+  margin-bottom: 30px;
+}
+main .memberships-title h2 {
+  padding-top: 50px;
+  font-size: 2.3rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #282623;
+}
+main .memberships-title p {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #BABABA;
 }/*# sourceMappingURL=main.css.map */
