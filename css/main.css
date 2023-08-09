@@ -463,6 +463,11 @@ main .memberships-container-card .membership-card-cta {
   font-weight: bold;
   line-height: 1.8rem;
 }
+main .memberships-container-card .membership-card-cta:hover {
+  cursor: pointer;
+  color: #808080;
+  border: 3px solid #F7931A;
+}
 main .memberships-container-card .membership-card-cta span {
   display: inline-block;
   width: 20px;

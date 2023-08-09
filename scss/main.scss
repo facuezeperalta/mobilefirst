@@ -494,7 +494,12 @@ main{
             font-size: 1.4rem;
             font-weight: bold;
             line-height: 1.8rem;
-            
+            &:hover{
+                cursor:pointer;
+                color:$darker-gray;
+                border: 3px solid $bitcoin-orage;
+                
+            }
             span{
                 display: inline-block;
                 width: 20px;
