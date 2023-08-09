@@ -433,5 +433,78 @@ main{
             color:$gray;
         }
     }
+    .memberships-container-card{
+        position: relative;
+        width: 70%;
+        min-width: 230px;
+        max-width: 300px;
+        height: 250px;
+        margin: 50px auto 0;
+        padding: 0 15px;
+        background-color: $just-white;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+        .recommended{
+            position: absolute;
+            width: 120px;
+            height: 31px;
+            background-color: $bitcoin-orage;
+            color: $off-white;
+            border-radius: 10px;
+            left: calc(50% - 60px);
+            top: -16px;
+            font-size: 1.2rem;
+            font-weight: 400;
+            padding:6px;
+            &:hover{
+                cursor: pointer;
+                color:$just-white;
+            }
+        }
+        .membership-card-title{
+            padding-top: 30px;
+            font-size: 1.4rem;
+            font-weight: 500;
+            line-height: 1.8rem;
+            color: $warm-black;
+        }
+        .membership-card-price{
+            padding: 5px 0 ;
+            font-size: 5.2rem;
+            font-weight: bold;
+            color:$warm-black;
+            span{
+                font-size: 1.2rem;
+                font-weight: 300;
+                vertical-align: 30px;
+            }
+        }
+        .membership-card-saving{
+            color:$gray;
+            font-size: 1.4rem;
+        }
+        .membership-card-cta{
+            width: 150px;
+            height: 48px;
+            margin-top: 30px;
+            background-color: $off-white;
+            border-radius: 8px;
+            border: 2px solid $bitcoin-orage;
+            color: $warm-black;
+            font-size: 1.4rem;
+            font-weight: bold;
+            line-height: 1.8rem;
+            
+            span{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background-image: url('../assets/icons/orange-right-arrow.svg');
+                vertical-align: text-bottom; /* alineamos el texto y el icono */
+            }
+            
+        }
+
+    }
 
 }

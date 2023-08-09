@@ -399,4 +399,74 @@ main .memberships-title p {
   font-weight: 500;
   line-height: 1.8rem;
   color: #BABABA;
+}
+main .memberships-container-card {
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+main .memberships-container-card .recommended {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  background-color: #F7931A;
+  color: #FAF8F7;
+  border-radius: 10px;
+  left: calc(50% - 60px);
+  top: -16px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 6px;
+}
+main .memberships-container-card .recommended:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+}
+main .memberships-container-card .membership-card-title {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #201E1C;
+}
+main .memberships-container-card .membership-card-price {
+  padding: 5px 0;
+  font-size: 5.2rem;
+  font-weight: bold;
+  color: #201E1C;
+}
+main .memberships-container-card .membership-card-price span {
+  font-size: 1.2rem;
+  font-weight: 300;
+  vertical-align: 30px;
+}
+main .memberships-container-card .membership-card-saving {
+  color: #BABABA;
+  font-size: 1.4rem;
+}
+main .memberships-container-card .membership-card-cta {
+  width: 150px;
+  height: 48px;
+  margin-top: 30px;
+  background-color: #FAF8F7;
+  border-radius: 8px;
+  border: 2px solid #F7931A;
+  color: #201E1C;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+}
+main .memberships-container-card .membership-card-cta span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/icons/orange-right-arrow.svg");
+  vertical-align: text-bottom; /* alineamos el texto y el icono */
 }/*# sourceMappingURL=main.css.map */
