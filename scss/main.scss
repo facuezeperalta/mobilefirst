@@ -509,7 +509,30 @@ main{
             }
             
         }
+        .basic{
+           @extend .recommended;
+           background-color: $dark-blue;
+        }
+        .life-time{
+            @extend .recommended;
+            background-color: $gray;
+        }
+         
+    }
+    .memberships-container-card-lifetime{
+      @extend .memberships-container-card;
+      background-color: $warm-black;
+      .membership-card-title{
+        color: $just-white;
 
+      }
+      .membership-card-price{
+        color:$off-white;
+      }
+      .membership-card-cta{
+        background-color: $gray;
+        
+      }
     }
 
 }
