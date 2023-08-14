@@ -400,7 +400,7 @@ main .memberships-title p {
   line-height: 1.8rem;
   color: #BABABA;
 }
-main .memberships-container-card {
+main .memberships-container-card, main .memberships-container-card-lifetime {
   position: relative;
   width: 70%;
   min-width: 230px;
@@ -412,7 +412,7 @@ main .memberships-container-card {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
-main .memberships-container-card .recommended {
+main .memberships-container-card .recommended, main .memberships-container-card-lifetime .recommended, main .memberships-container-card .life-time, main .memberships-container-card-lifetime .life-time, main .memberships-container-card .basic, main .memberships-container-card-lifetime .basic {
   position: absolute;
   width: 120px;
   height: 31px;
@@ -425,33 +425,33 @@ main .memberships-container-card .recommended {
   font-weight: 400;
   padding: 6px;
 }
-main .memberships-container-card .recommended:hover {
+main .memberships-container-card .recommended:hover, main .memberships-container-card-lifetime .recommended:hover, main .memberships-container-card .life-time:hover, main .memberships-container-card-lifetime .life-time:hover, main .memberships-container-card .basic:hover, main .memberships-container-card-lifetime .basic:hover {
   cursor: pointer;
   color: #FFFFFF;
 }
-main .memberships-container-card .membership-card-title {
+main .memberships-container-card .membership-card-title, main .memberships-container-card-lifetime .membership-card-title {
   padding-top: 30px;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
   color: #201E1C;
 }
-main .memberships-container-card .membership-card-price {
+main .memberships-container-card .membership-card-price, main .memberships-container-card-lifetime .membership-card-price {
   padding: 5px 0;
   font-size: 5.2rem;
   font-weight: bold;
   color: #201E1C;
 }
-main .memberships-container-card .membership-card-price span {
+main .memberships-container-card .membership-card-price span, main .memberships-container-card-lifetime .membership-card-price span {
   font-size: 1.2rem;
   font-weight: 300;
   vertical-align: 30px;
 }
-main .memberships-container-card .membership-card-saving {
+main .memberships-container-card .membership-card-saving, main .memberships-container-card-lifetime .membership-card-saving {
   color: #BABABA;
   font-size: 1.4rem;
 }
-main .memberships-container-card .membership-card-cta {
+main .memberships-container-card .membership-card-cta, main .memberships-container-card-lifetime .membership-card-cta {
   width: 150px;
   height: 48px;
   margin-top: 30px;
@@ -463,15 +463,33 @@ main .memberships-container-card .membership-card-cta {
   font-weight: bold;
   line-height: 1.8rem;
 }
-main .memberships-container-card .membership-card-cta:hover {
+main .memberships-container-card .membership-card-cta:hover, main .memberships-container-card-lifetime .membership-card-cta:hover {
   cursor: pointer;
   color: #808080;
   border: 3px solid #F7931A;
 }
-main .memberships-container-card .membership-card-cta span {
+main .memberships-container-card .membership-card-cta span, main .memberships-container-card-lifetime .membership-card-cta span {
   display: inline-block;
   width: 20px;
   height: 20px;
   background-image: url("../assets/icons/orange-right-arrow.svg");
   vertical-align: text-bottom; /* alineamos el texto y el icono */
+}
+main .memberships-container-card .basic, main .memberships-container-card-lifetime .basic {
+  background-color: #1A9AF7;
+}
+main .memberships-container-card .life-time, main .memberships-container-card-lifetime .life-time {
+  background-color: #BABABA;
+}
+main .memberships-container-card-lifetime {
+  background-color: #201E1C;
+}
+main .memberships-container-card-lifetime .membership-card-title {
+  color: #FFFFFF;
+}
+main .memberships-container-card-lifetime .membership-card-price {
+  color: #FAF8F7;
+}
+main .memberships-container-card-lifetime .membership-card-cta {
+  background-color: #BABABA;
 }/*# sourceMappingURL=main.css.map */
