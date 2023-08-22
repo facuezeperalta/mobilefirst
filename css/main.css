@@ -87,6 +87,13 @@ main {
   height: auto;
   background-color: #FAF8F7;
 }
+@media screen and (min-width: 930px) {
+  main .main-exchange-tables-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
 main .main-exchange-container {
   width: 100%;
   height: auto;
@@ -273,6 +280,14 @@ main .comission-table .comision-update-date p {
   line-height: 1.5rem;
   color: #201E1C;
   font-family: "Lexend", sans-serif;
+}
+@media screen and (min-width: 930px) {
+  main .product-card--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+  }
 }
 main .main-product-detail {
   position: relative;
@@ -500,6 +515,11 @@ main .memberships-container-slider {
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity; /* centra el elemento que estamos viendo  */
+}
+@media screen and (min-width: 930px) {
+  main .memberships-container-slider {
+    justify-content: center;
+  }
 }
 
 footer {
